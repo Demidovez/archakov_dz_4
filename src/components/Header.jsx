@@ -17,7 +17,7 @@ function Header(props) {
     <div className="header">
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Мой блог</Navbar.Brand>
+          <Navbar.Brand href="/">Мой блог</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="/" active={props.current === ""}>
               Главная
